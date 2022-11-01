@@ -426,7 +426,7 @@ class Simulation:
         print("*****   Events:   *****")
         print("***********************\n")
         EventRanNo = random.random()
-        if EventRanNo < 1:
+        if EventRanNo < 0.25:
             self.__ProcessAddRemoveHouseholdsEvent()
             return
         EventRanNo = random.random()
